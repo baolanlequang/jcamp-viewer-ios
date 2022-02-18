@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - JcampConverter (0.0.5)
+
+DEPENDENCIES:
+  - Charts
+  - JcampConverter (~> 0.0.5)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - JcampConverter
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  JcampConverter: fd23a3f7e1c999b6ff60a6dd92aaad3b6fa93423
+
+PODFILE CHECKSUM: 5331c870645ba2e2e86c38c8e5799b66280b50d2
+
+COCOAPODS: 1.11.2
