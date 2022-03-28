@@ -1,6 +1,0 @@
-framework module Pods_JcampViewer {
-  umbrella header "Pods-JcampViewer-umbrella.h"
-
-  export *
-  module * { export * }
-}
