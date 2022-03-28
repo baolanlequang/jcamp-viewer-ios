@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADA1E9F27F25DBF0039CC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA1E9E27F25DBF0039CC3D /* AppDelegate.swift */; };
+		FADA1EA127F25DBF0039CC3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA1EA027F25DBF0039CC3D /* SceneDelegate.swift */; };
+		FADA1EA827F25DBF0039CC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA1EA727F25DBF0039CC3D /* Assets.xcassets */; };
+		FADA1EAB27F25DBF0039CC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA1EA927F25DBF0039CC3D /* LaunchScreen.storyboard */; };
+		FADA1EB627F25DC00039CC3D /* JcampViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA1EB527F25DC00039CC3D /* JcampViewerTests.swift */; };
+		FADA1EC027F25DC00039CC3D /* JcampViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA1EBF27F25DC00039CC3D /* JcampViewerUITests.swift */; };
+		FADA1EC227F25DC00039CC3D /* JcampViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA1EC127F25DC00039CC3D /* JcampViewerUITestsLaunchTests.swift */; };
+		FADA1ED227F25E240039CC3D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA1ED027F25E240039CC3D /* MainVC.swift */; };
+		FADA1ED327F25E240039CC3D /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADA1ED127F25E240039CC3D /* MainVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADA1EB227F25DC00039CC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADA1E9327F25DBF0039CC3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADA1E9A27F25DBF0039CC3D;
+			remoteInfo = JcampViewer;
+		};
+		FADA1EBC27F25DC00039CC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADA1E9327F25DBF0039CC3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADA1E9A27F25DBF0039CC3D;
+			remoteInfo = JcampViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADA1E9B27F25DBF0039CC3D /* JcampViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JcampViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA1E9E27F25DBF0039CC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADA1EA027F25DBF0039CC3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FADA1EA727F25DBF0039CC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADA1EAA27F25DBF0039CC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADA1EAC27F25DBF0039CC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADA1EB127F25DC00039CC3D /* JcampViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JcampViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA1EB527F25DC00039CC3D /* JcampViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JcampViewerTests.swift; sourceTree = "<group>"; };
+		FADA1EBB27F25DC00039CC3D /* JcampViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JcampViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA1EBF27F25DC00039CC3D /* JcampViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JcampViewerUITests.swift; sourceTree = "<group>"; };
+		FADA1EC127F25DC00039CC3D /* JcampViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JcampViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FADA1ED027F25E240039CC3D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		FADA1ED127F25E240039CC3D /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADA1E9827F25DBF0039CC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA1EAE27F25DC00039CC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA1EB827F25DC00039CC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADA1E9227F25DBF0039CC3D = {
+			isa = PBXGroup;
+			children = (
+				FADA1E9D27F25DBF0039CC3D /* JcampViewer */,
+				FADA1EB427F25DC00039CC3D /* JcampViewerTests */,
+				FADA1EBE27F25DC00039CC3D /* JcampViewerUITests */,
+				FADA1E9C27F25DBF0039CC3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADA1E9C27F25DBF0039CC3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADA1E9B27F25DBF0039CC3D /* JcampViewer.app */,
+				FADA1EB127F25DC00039CC3D /* JcampViewerTests.xctest */,
+				FADA1EBB27F25DC00039CC3D /* JcampViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADA1E9D27F25DBF0039CC3D /* JcampViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FADA1E9E27F25DBF0039CC3D /* AppDelegate.swift */,
+				FADA1EA027F25DBF0039CC3D /* SceneDelegate.swift */,
+				FADA1ECE27F25E070039CC3D /* ViewControllers */,
+				FADA1EA727F25DBF0039CC3D /* Assets.xcassets */,
+				FADA1EA927F25DBF0039CC3D /* LaunchScreen.storyboard */,
+				FADA1EAC27F25DBF0039CC3D /* Info.plist */,
+			);
+			path = JcampViewer;
+			sourceTree = "<group>";
+		};
+		FADA1EB427F25DC00039CC3D /* JcampViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADA1EB527F25DC00039CC3D /* JcampViewerTests.swift */,
+			);
+			path = JcampViewerTests;
+			sourceTree = "<group>";
+		};
+		FADA1EBE27F25DC00039CC3D /* JcampViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADA1EBF27F25DC00039CC3D /* JcampViewerUITests.swift */,
+				FADA1EC127F25DC00039CC3D /* JcampViewerUITestsLaunchTests.swift */,
+			);
+			path = JcampViewerUITests;
+			sourceTree = "<group>";
+		};
+		FADA1ECE27F25E070039CC3D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FADA1ECF27F25E0E0039CC3D /* MainVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FADA1ECF27F25E0E0039CC3D /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				FADA1ED027F25E240039CC3D /* MainVC.swift */,
+				FADA1ED127F25E240039CC3D /* MainVC.xib */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADA1E9A27F25DBF0039CC3D /* JcampViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA1EC527F25DC00039CC3D /* Build configuration list for PBXNativeTarget "JcampViewer" */;
+			buildPhases = (
+				FADA1E9727F25DBF0039CC3D /* Sources */,
+				FADA1E9827F25DBF0039CC3D /* Frameworks */,
+				FADA1E9927F25DBF0039CC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JcampViewer;
+			productName = JcampViewer;
+			productReference = FADA1E9B27F25DBF0039CC3D /* JcampViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADA1EB027F25DC00039CC3D /* JcampViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA1EC827F25DC00039CC3D /* Build configuration list for PBXNativeTarget "JcampViewerTests" */;
+			buildPhases = (
+				FADA1EAD27F25DC00039CC3D /* Sources */,
+				FADA1EAE27F25DC00039CC3D /* Frameworks */,
+				FADA1EAF27F25DC00039CC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADA1EB327F25DC00039CC3D /* PBXTargetDependency */,
+			);
+			name = JcampViewerTests;
+			productName = JcampViewerTests;
+			productReference = FADA1EB127F25DC00039CC3D /* JcampViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADA1EBA27F25DC00039CC3D /* JcampViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA1ECB27F25DC00039CC3D /* Build configuration list for PBXNativeTarget "JcampViewerUITests" */;
+			buildPhases = (
+				FADA1EB727F25DC00039CC3D /* Sources */,
+				FADA1EB827F25DC00039CC3D /* Frameworks */,
+				FADA1EB927F25DC00039CC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADA1EBD27F25DC00039CC3D /* PBXTargetDependency */,
+			);
+			name = JcampViewerUITests;
+			productName = JcampViewerUITests;
+			productReference = FADA1EBB27F25DC00039CC3D /* JcampViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADA1E9327F25DBF0039CC3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FADA1E9A27F25DBF0039CC3D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FADA1EB027F25DC00039CC3D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FADA1E9A27F25DBF0039CC3D;
+					};
+					FADA1EBA27F25DC00039CC3D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FADA1E9A27F25DBF0039CC3D;
+					};
+				};
+			};
+			buildConfigurationList = FADA1E9627F25DBF0039CC3D /* Build configuration list for PBXProject "JcampViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADA1E9227F25DBF0039CC3D;
+			productRefGroup = FADA1E9C27F25DBF0039CC3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADA1E9A27F25DBF0039CC3D /* JcampViewer */,
+				FADA1EB027F25DC00039CC3D /* JcampViewerTests */,
+				FADA1EBA27F25DC00039CC3D /* JcampViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADA1E9927F25DBF0039CC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA1ED327F25E240039CC3D /* MainVC.xib in Resources */,
+				FADA1EAB27F25DBF0039CC3D /* LaunchScreen.storyboard in Resources */,
+				FADA1EA827F25DBF0039CC3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA1EAF27F25DC00039CC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA1EB927F25DC00039CC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADA1E9727F25DBF0039CC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA1E9F27F25DBF0039CC3D /* AppDelegate.swift in Sources */,
+				FADA1ED227F25E240039CC3D /* MainVC.swift in Sources */,
+				FADA1EA127F25DBF0039CC3D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA1EAD27F25DC00039CC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA1EB627F25DC00039CC3D /* JcampViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA1EB727F25DC00039CC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA1EC227F25DC00039CC3D /* JcampViewerUITestsLaunchTests.swift in Sources */,
+				FADA1EC027F25DC00039CC3D /* JcampViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADA1EB327F25DC00039CC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADA1E9A27F25DBF0039CC3D /* JcampViewer */;
+			targetProxy = FADA1EB227F25DC00039CC3D /* PBXContainerItemProxy */;
+		};
+		FADA1EBD27F25DC00039CC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADA1E9A27F25DBF0039CC3D /* JcampViewer */;
+			targetProxy = FADA1EBC27F25DC00039CC3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADA1EA927F25DBF0039CC3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADA1EAA27F25DBF0039CC3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADA1EC327F25DC00039CC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADA1EC427F25DC00039CC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADA1EC627F25DC00039CC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBSVXGZTXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JcampViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = baolan2005.com.JcampViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADA1EC727F25DC00039CC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBSVXGZTXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JcampViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = baolan2005.com.JcampViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FADA1EC927F25DC00039CC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBSVXGZTXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = baolan2005.com.JcampViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JcampViewer.app/JcampViewer";
+			};
+			name = Debug;
+		};
+		FADA1ECA27F25DC00039CC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBSVXGZTXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = baolan2005.com.JcampViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JcampViewer.app/JcampViewer";
+			};
+			name = Release;
+		};
+		FADA1ECC27F25DC00039CC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBSVXGZTXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = baolan2005.com.JcampViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JcampViewer;
+			};
+			name = Debug;
+		};
+		FADA1ECD27F25DC00039CC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBSVXGZTXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = baolan2005.com.JcampViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JcampViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADA1E9627F25DBF0039CC3D /* Build configuration list for PBXProject "JcampViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA1EC327F25DC00039CC3D /* Debug */,
+				FADA1EC427F25DC00039CC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADA1EC527F25DC00039CC3D /* Build configuration list for PBXNativeTarget "JcampViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA1EC627F25DC00039CC3D /* Debug */,
+				FADA1EC727F25DC00039CC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADA1EC827F25DC00039CC3D /* Build configuration list for PBXNativeTarget "JcampViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA1EC927F25DC00039CC3D /* Debug */,
+				FADA1ECA27F25DC00039CC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADA1ECB27F25DC00039CC3D /* Build configuration list for PBXNativeTarget "JcampViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA1ECC27F25DC00039CC3D /* Debug */,
+				FADA1ECD27F25DC00039CC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADA1E9327F25DBF0039CC3D /* Project object */;
+}
