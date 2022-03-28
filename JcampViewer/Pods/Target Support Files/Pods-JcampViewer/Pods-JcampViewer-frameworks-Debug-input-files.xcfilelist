@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-JcampViewer/Pods-JcampViewer-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/JcampConverter/JcampConverter.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework

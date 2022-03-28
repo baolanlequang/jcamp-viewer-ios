@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'JcampViewer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JcampViewer
+#  pod 'JcampConverter', '~> 0.0.6'
+  pod 'JcampConverter', :git => 'https://github.com/baolanlequang/jcamp-converter-ios'
+  pod 'Charts', :git => 'https://github.com/baolanlequang/Charts'
+
+  target 'JcampViewerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JcampViewerUITests' do
+    # Pods for testing
+  end
+
+end

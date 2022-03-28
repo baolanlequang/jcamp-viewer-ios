@@ -1,0 +1,6 @@
+framework module JcampConverter {
+  umbrella header "JcampConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}
