@@ -1,0 +1,38 @@
+PODS:
+  - Charts (4.0.2):
+    - Charts/Core (= 4.0.2)
+  - Charts/Core (4.0.2):
+    - SwiftAlgorithms (~> 1.0)
+  - JcampConverter (0.0.7)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts (from `https://github.com/baolanlequang/Charts`)
+  - JcampConverter (from `https://github.com/baolanlequang/jcamp-converter-ios`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftAlgorithms
+
+EXTERNAL SOURCES:
+  Charts:
+    :git: https://github.com/baolanlequang/Charts
+  JcampConverter:
+    :git: https://github.com/baolanlequang/jcamp-converter-ios
+
+CHECKOUT OPTIONS:
+  Charts:
+    :commit: b61fc9b97829ab9b954d01f96e601d52045ef5dc
+    :git: https://github.com/baolanlequang/Charts
+  JcampConverter:
+    :commit: 245a054ffa5908343472096ef8bb36f5afabb2a8
+    :git: https://github.com/baolanlequang/jcamp-converter-ios
+
+SPEC CHECKSUMS:
+  Charts: cfa4e911e6dc289582c2fe011a0e87c03d96727f
+  JcampConverter: 8af7b5f39e600b7e790d2c276398cc243ed5718e
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: a363459f343696ff6599ff966d832ed1910a7eca
+
+COCOAPODS: 1.11.3
