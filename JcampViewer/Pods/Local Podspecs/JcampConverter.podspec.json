@@ -1,6 +1,6 @@
 {
   "name": "JcampConverter",
-  "version": "0.0.7",
+  "version": "0.1.1",
   "summary": "Jcamp Reader for iOS",
   "swift_versions": [
     "4.0",
@@ -18,11 +18,12 @@
   },
   "source": {
     "git": "https://github.com/baolanlequang/jcamp-converter-ios.git",
-    "tag": "0.0.7"
+    "tag": "0.1.1"
   },
   "source_files": [
-    "JcampConverter/JcampConverter/*.{h,m,swift}",
-    "JcampConverter/JcampConverter/Utils/*.{h,m,swift}"
+    "JCAMPConveter/JCAMPConveter/*.{h,m,swift}",
+    "JCAMPConveter/JCAMPConveter/Utils/*.{h,m,swift}",
+    "JCAMPConveter/JCAMPConveter/Helpers/*.{h,m,swift}"
   ],
   "exclude_files": "Classes/Exclude",
   "swift_version": "5.5"

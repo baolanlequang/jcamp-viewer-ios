@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Charts
+import DGCharts
 import JcampConverter
 
 class MainVC: UIViewController, ScanVCDelegate {
@@ -32,47 +32,34 @@ class MainVC: UIViewController, ScanVCDelegate {
     
     
     private func readJcamp(jcampurl: String) {
-        let reader = JcampReader(url: jcampurl)
-        if let children = reader.jcamp?.children, let firstChild = children.first {
-            guard let spectra = firstChild.spectra.first else {
-                return
-            }
+        let jcamp = Jcamp(jcampurl)
+        
+        let colors = ChartColorTemplates.colorful()[0...4]
+        
+        var dataSets: [ChartDataSet] = []
+        for (specIdx, spectrum) in jcamp.spectra.enumerated() {
             var entries = [ChartDataEntry]()
-            let xValues = spectra.xValues
-            let yValues = spectra.yValues
+            let xValues = spectrum.getListX()
+            let yValues = spectrum.getListY()
             for (idx, xval) in xValues.enumerated() {
                 let entry = ChartDataEntry(x: xval, y: yValues[idx])
                 entries.append(entry)
             }
             
-            let set1 = LineChartDataSet(entries: entries, label: "Test jcamp")
-            set1.drawCirclesEnabled = false
-            let data = LineChartData(dataSet: set1)
-            chartView.data = data
-        }
-        else {
-            guard let spectra = reader.jcamp?.spectra.first else {
-                return
-            }
-            var entries = [ChartDataEntry]()
-            let xValues = spectra.xValues
-            let yValues = spectra.yValues
-            for (idx, xval) in xValues.enumerated() {
-                let entry = ChartDataEntry(x: xval, y: yValues[idx])
-                entries.append(entry)
-            }
+            let set = LineChartDataSet(entries: entries, label: "Test jcamp \(specIdx+1)")
+            set.drawCirclesEnabled = false
+            let color = colors[specIdx % colors.count]
+            set.setColor(color)
             
-            let set1 = LineChartDataSet(entries: entries, label: "Test jcamp")
-            set1.drawCirclesEnabled = false
-            let data = LineChartData(dataSet: set1)
-            chartView.data = data
+            dataSets.append(set)
         }
         
+        let data = LineChartData(dataSets: dataSets)
+        self.chartView.data = data
     }
     
     // MARK: - ScanVCDelegate
     func scanSucess(data: String) {
-        print(data)
         self.readJcamp(jcampurl: data)
     }
 

@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "JcampConverter.h"
+#import "JCAMPConveter.h"
 
 FOUNDATION_EXPORT double JcampConverterVersionNumber;
 FOUNDATION_EXPORT const unsigned char JcampConverterVersionString[];
