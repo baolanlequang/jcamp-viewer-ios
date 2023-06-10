@@ -6,9 +6,10 @@ target 'JcampViewer' do
   use_frameworks!
 
   # Pods for JcampViewer
-#  pod 'JcampConverter', '~> 0.0.6'
+#  pod 'JcampConverter', '~> 0.1.0'
   pod 'JcampConverter', :git => 'https://github.com/baolanlequang/jcamp-converter-ios'
-  pod 'Charts', :git => 'https://github.com/baolanlequang/Charts'
+#  pod 'Charts', :git => 'https://github.com/baolanlequang/Charts'
+  pod 'DGCharts'
 
   target 'JcampViewerTests' do
     inherit! :search_paths

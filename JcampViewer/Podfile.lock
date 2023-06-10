@@ -1,38 +1,30 @@
 PODS:
-  - Charts (4.0.2):
-    - Charts/Core (= 4.0.2)
-  - Charts/Core (4.0.2):
-    - SwiftAlgorithms (~> 1.0)
-  - JcampConverter (0.0.7)
-  - SwiftAlgorithms (1.0.0)
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+  - JcampConverter (0.1.1)
 
 DEPENDENCIES:
-  - Charts (from `https://github.com/baolanlequang/Charts`)
+  - DGCharts
   - JcampConverter (from `https://github.com/baolanlequang/jcamp-converter-ios`)
 
 SPEC REPOS:
   trunk:
-    - SwiftAlgorithms
+    - DGCharts
 
 EXTERNAL SOURCES:
-  Charts:
-    :git: https://github.com/baolanlequang/Charts
   JcampConverter:
     :git: https://github.com/baolanlequang/jcamp-converter-ios
 
 CHECKOUT OPTIONS:
-  Charts:
-    :commit: b61fc9b97829ab9b954d01f96e601d52045ef5dc
-    :git: https://github.com/baolanlequang/Charts
   JcampConverter:
-    :commit: 245a054ffa5908343472096ef8bb36f5afabb2a8
+    :commit: fdea4b7d6aee2c5e2d142289e85cf5e03257c610
     :git: https://github.com/baolanlequang/jcamp-converter-ios
 
 SPEC CHECKSUMS:
-  Charts: cfa4e911e6dc289582c2fe011a0e87c03d96727f
-  JcampConverter: 8af7b5f39e600b7e790d2c276398cc243ed5718e
-  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  JcampConverter: 6a4d1fabea279894761d41bbc46a9d6e9e5030f7
 
-PODFILE CHECKSUM: a363459f343696ff6599ff966d832ed1910a7eca
+PODFILE CHECKSUM: 5a12fdb288a2ea96e16e708965aca945fcb2db74
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0
